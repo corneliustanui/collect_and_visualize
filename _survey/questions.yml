@@ -1,0 +1,60 @@
+# ! JUST READ - don't change the content of this file
+# Question structure extracted from survey.html
+resp_name:
+  type: text
+  label: Record the name of the respondent
+resp_sex:
+  type: mc
+  label: Record sex of the respondent
+  options:
+    Male: '1'
+    Female: '2'
+    Other: '3'
+resp_sex_other:
+  type: text
+  label: Specify other sex
+resp_age:
+  type: mc_buttons
+  label: How old are you?
+  options:
+    Below 18 yrs: '1'
+    18-20 yrs: '2'
+    21- 25 yrs: '3'
+    26-30 yrs: '4'
+    31-35 yrs: '5'
+    36-40 yrs: '6'
+    41-45 yrs: '7'
+    46- 50 yrs: '8'
+    51-60 yrs: '9'
+    Above 61 yrs: '10'
+resp_educ:
+  type: select
+  label: What is the highest level of schooling you have attained?
+  options:
+    None: '1'
+    Some primary education: '2'
+    Completed Primary: '3'
+    Secondary: '4'
+    College: '5'
+    University: '6'
+    Other: '7'
+resp_educ_other:
+  type: text
+  label: Specify other highest level of schooling you have attained.
+resp_hse_type:
+  type: mc
+  label: Indicate the household type you belong to
+  options:
+    Male headed: '1'
+    Female headed: '2'
+    Child headed: '3'
+access_elect:
+  type: mc
+  label: Do you have access to electricity?
+  options:
+    'Yes': '1'
+    'No': '2'
+cost_elect:
+  type: numeric
+  label: How much of your household income do you spend on electricity?
+
